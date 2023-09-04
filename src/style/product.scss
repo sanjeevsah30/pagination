@@ -1,0 +1,22 @@
+.product--item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding :2rem;
+
+  img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+  }
+
+  span {
+    font-size: large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+}
